@@ -8,6 +8,7 @@ import { CarouselComponent } from './components/carousel/carousel.component';
 import { FooterDescontoComponent } from './components/cards/footer-desconto/footer-desconto.component';
 import { FooterUnidadesComponent } from './components/cards/footer-unidades/footer-unidades.component';
 import { FooterAvaliacaoComponent } from './components/cards/footer-avaliacao/footer-avaliacao.component';
+import { PriceComponent } from './components/cards/price/price.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FooterAvaliacaoComponent } from './components/cards/footer-avaliacao/fo
     CarouselComponent,
     FooterDescontoComponent,
     FooterUnidadesComponent,
-    FooterAvaliacaoComponent
+    FooterAvaliacaoComponent,
+    PriceComponent
   ],
   imports: [
     BrowserModule,
