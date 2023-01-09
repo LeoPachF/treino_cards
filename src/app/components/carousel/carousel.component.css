@@ -1,0 +1,9 @@
+.desconto {
+  display: flex;
+  flex-direction: column;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
