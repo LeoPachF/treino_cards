@@ -10,6 +10,8 @@ import { FooterUnidadesComponent } from './components/cards/footer-unidades/foot
 import { FooterAvaliacaoComponent } from './components/cards/footer-avaliacao/footer-avaliacao.component';
 import { PriceComponent } from './components/cards/price/price.component';
 import { ComprarComponent } from './components/cards/comprar/comprar.component';
+import { ImageComponent } from './components/cards/image/image.component';
+import { DescricaoComponent } from './components/cards/descricao/descricao.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { ComprarComponent } from './components/cards/comprar/comprar.component';
     FooterUnidadesComponent,
     FooterAvaliacaoComponent,
     PriceComponent,
-    ComprarComponent
+    ComprarComponent,
+    ImageComponent,
+    DescricaoComponent
   ],
   imports: [
     BrowserModule,
