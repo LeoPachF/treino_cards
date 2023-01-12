@@ -12,6 +12,7 @@ import { PriceComponent } from './components/cards/price/price.component';
 import { ComprarComponent } from './components/cards/comprar/comprar.component';
 import { ImageComponent } from './components/cards/image/image.component';
 import { DescricaoComponent } from './components/cards/descricao/descricao.component';
+import { CardprontoComponent } from './components/cardpronto/cardpronto.component';
 
 @NgModule({
   declarations: [
@@ -24,13 +25,11 @@ import { DescricaoComponent } from './components/cards/descricao/descricao.compo
     PriceComponent,
     ComprarComponent,
     ImageComponent,
-    DescricaoComponent
+    DescricaoComponent,
+    CardprontoComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
