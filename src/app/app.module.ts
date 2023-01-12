@@ -9,6 +9,7 @@ import { FooterDescontoComponent } from './components/cards/footer-desconto/foot
 import { FooterUnidadesComponent } from './components/cards/footer-unidades/footer-unidades.component';
 import { FooterAvaliacaoComponent } from './components/cards/footer-avaliacao/footer-avaliacao.component';
 import { PriceComponent } from './components/cards/price/price.component';
+import { ComprarComponent } from './components/cards/comprar/comprar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PriceComponent } from './components/cards/price/price.component';
     FooterDescontoComponent,
     FooterUnidadesComponent,
     FooterAvaliacaoComponent,
-    PriceComponent
+    PriceComponent,
+    ComprarComponent
   ],
   imports: [
     BrowserModule,
