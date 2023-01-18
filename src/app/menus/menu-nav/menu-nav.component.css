@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+li {
+  list-style: none;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: orangered;
+}
+button {
+  margin: 20px;
+  background-color: orangered;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 0;
+  border-right: 0.5px white solid;
+  padding-right: 20px;
+}

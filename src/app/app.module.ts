@@ -13,6 +13,7 @@ import { ComprarComponent } from './components/cards/comprar/comprar.component';
 import { ImageComponent } from './components/cards/image/image.component';
 import { DescricaoComponent } from './components/cards/descricao/descricao.component';
 import { CardprontoComponent } from './components/cardpronto/cardpronto.component';
+import { MenuNavComponent } from './menus/menu-nav/menu-nav.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { CardprontoComponent } from './components/cardpronto/cardpronto.componen
     ImageComponent,
     DescricaoComponent,
     CardprontoComponent,
+    MenuNavComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
